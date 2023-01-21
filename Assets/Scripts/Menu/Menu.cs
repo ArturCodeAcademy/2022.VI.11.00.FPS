@@ -5,7 +5,7 @@ public class Menu : MonoBehaviour
 {
     private void Start()
     {
-        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     public void LoadScene(int sceneIndex)
